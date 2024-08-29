@@ -1,12 +1,5 @@
+LulzBot Marlin firmware is built from https://github.com/lulzbot3d/Marlin
 
-==MarlinUltimaker==
-The MarlinUltimaker-*.hex firmware is build from https://github.com/Ultimaker/Marlin and released under GPLv3
-The sources for the included firmware are taged with the first Cura version number which includes the build.
+LulzBot Klipper firmware is built from https://github.com/lulzbot3d/Klipper
 
-==MarlinUltimaker2==
-The MarlinUltimaker2.hex firmware is build from https://github.com/Ultimaker/SecretMarlin and released under GPLv3
-The sources for the included firmware are taged with the first Cura version number which includes the build.
-
-==MarlinWitbox==
-The MarlinWitbox.hex firmware is build from https://github.com/bq/Marlin and released under GPLv3
-
+All LulzBot firmware is released under the terms of the GPLv3 or higher.

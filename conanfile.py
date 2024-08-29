@@ -8,13 +8,13 @@ from conan.tools.files import copy, update_conandata
 required_conan_version = ">=1.59.0"
 
 
-class CuraBinaryDataConan(ConanFile):
-    name = "cura_binary_data"
+class CuraLEBinaryDataConan(ConanFile):
+    name = "curale_binary_data"
     license = "LGPL-3.0"
-    author = "Ultimaker B.V."
-    url = "https://github.com/Ultimaker/cura-binary-data"
-    description = "Contains binary data for Cura releases, like compiled translations and firmware."
-    topics = ("conan", "binaries", "translation", "firmware", "cura")
+    author = "Ultimaker B.V., FAME3D LLC."
+    url = "https://github.com/lulzbot3d/CuraLEBinaryData"
+    description = "Contains binary data for CuraLE releases, like compiled translations and firmware."
+    topics = ("conan", "binaries", "translation", "firmware", "curale")
     exports = "LICENSE*"
     settings = "os", "compiler", "build_type", "arch"
     no_copy_source = True

@@ -1,0 +1,3 @@
+This is where text documents for the "What's New" section go.
+
+They're formatted as HTML!
