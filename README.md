@@ -56,7 +56,7 @@ cd CuraLEBinaryData
 To create a new CuraLEBinaryData Conan package such that it can be used in CuraLE and UraniumLE, run the following command:
 
 ```shell
-conan create . curalebinarydata/<version>@<username>/<channel> --build=missing --update
+conan create . curale_binary_data/<version>@<username>/<channel> --build=missing --update
 ```
 
 This package will be stored in the local Conan cache (`~/.conan/data` or `C:\Users\username\.conan\data` ) and can be used in downstream
@@ -68,7 +68,7 @@ You can also specify the override at the commandline, to use the newly created p
 command in the root of the consuming project, with:
 
 ```shell
-conan install . -build=missing --update --require-override=curalebinarydata/<version>@<username>/<channel>
+conan install . -build=missing --update --require-override=curale_binary_data/<version>@<username>/<channel>
 ```
 
 ## Developing CuraLEBinaryData In Editable Mode
@@ -77,11 +77,11 @@ You can use your local development repository downsteam by adding it as an edita
 This means you can test this in a consuming project without creating a new package for this project every time.
 
 ```bash
-    conan editable add . curalebinarydata/<version>@<username>/<channel>
+    conan editable add . curale_binary_data/<version>@<username>/<channel>
 ```
 
 Then in your downsteam projects root directory (such as CuraLE), override the package with your editable mode package.
 
 ```shell
-conan install . -build=missing --update --require-override=curalebinarydata/<version>@<username>/<channel>
+conan install . -build=missing --update --require-override=curale_binary_data/<version>@<username>/<channel>
 ```
